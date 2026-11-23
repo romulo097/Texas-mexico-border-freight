@@ -8,7 +8,6 @@ An interactive Power BI report on freight moving between Texas and Mexico: how m
 
 ---
 
-## Screenshots
 
 ## Screenshots
 
