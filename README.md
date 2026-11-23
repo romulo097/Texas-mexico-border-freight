@@ -10,14 +10,21 @@ An interactive Power BI report on freight moving between Texas and Mexico: how m
 
 ## Screenshots
 
-![Overview](04_Exports/01_overview.png)
-![Commodities](04_Exports/02_commodities.png)
-![Ports](04_Exports/03_ports.png)
-![Diesel](04_Exports/04_diesel.png)
-![Forecast](04_Exports/05_forecast.png)
-![Destinations](04_Exports/06_destinations.png)
-![Scenario](04_Exports/07_scenario.png)
+## Screenshots
 
+![Overview](01_overview.png)
+
+![Commodities](02_commodities.png)
+
+![Ports](03_ports.png)
+
+![Diesel](04_diesel.png)
+
+![Forecast](05_forecast.png)
+
+![Destinations](06_destinations.png)
+
+![Scenario](07_scenario.png)
 ## What the report answers
 
 | Page | Question |
@@ -79,15 +86,14 @@ Default assumptions: 20 tons per truck, 6.5 mpg, $5.871/gal (EIA Gulf Coast, Oct
 
 ## Files
 
-```
-Texas_Mexico_Border_Freight/
-├── 02_Excel/       Cleaned workbook and the CSV files used by the report
-├── 03_Power_BI/    PDF export of the report
-└── 04_Exports/     Page screenshots
-```
+
+- `README.md`: this file
+- `Texas_Mexico_Freight_Clean.xlsx`: cleaned Excel workbook (data, pivots, forecast, backtest, scenario calculator and checks)
+- `EIA_Diesel_Monthly.csv` and `FAF_TX_Entry_Mexico_Truck.csv`: data files used by the report
+- `Texas_Mexico_Border_Freight.pdf`: PDF export of the report
+- `01_overview.png` to `07_scenario.png`: page screenshots
 
 Raw source data is not included. Download it from the sources listed above.
-
 ## Tools
 
 Power BI Desktop (DAX, Calendar table, what-if parameters, synced slicers, page navigation) · Excel (SUMIFS, pivot tables, data validation) · Public data from BTS, ORNL/FAF and EIA.
